@@ -10,7 +10,10 @@
 
 <%   
 String name=request.getParameter("uname");  
-out.print("welcome "+name);  
+out.print("welcome "+name);
+
+String parameter=config.getInitParameter("demoparameter");  
+out.print("Init Parameter  is="+parameter);  
 %>  
 
 </body>
