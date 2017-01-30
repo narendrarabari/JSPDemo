@@ -1,6 +1,8 @@
 <html>  
 <body>  
-<%@ page import="java.util.Date" %>  
-Today is: <%= new Date() %>  
+<%@ page info="Page info Information" %>  
+Today is: <%= new java.util.Date() %>    
+
+<!-- getServletInfo() -->
 </body>  
 </html>  
