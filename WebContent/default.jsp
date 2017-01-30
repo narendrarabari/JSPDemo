@@ -1,4 +1,6 @@
-<form action="welcome">  
-<input type="text" name="uname">  
-<input type="submit" value="go"><br/>  
-</form>  
+<html>  
+<body>  
+<%@ page import="java.util.Date" %>  
+Today is: <%= new Date() %>  
+</body>  
+</html>  
